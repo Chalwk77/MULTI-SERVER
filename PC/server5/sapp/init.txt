@@ -4,6 +4,7 @@ lua_load welcome
 
 sapp_mapcycle enabled
 sv_mapcycle_timeout 5
+sv_mapcycle_add prisoner "oddball"
 sv_mapcycle_add beavercreek "oddball"
 sv_mapcycle_add bloodgulch "oddball"
 sv_mapcycle_add boardingaction "oddball"
@@ -17,7 +18,6 @@ sv_mapcycle_add hangemhigh "oddball"
 sv_mapcycle_add icefields "oddball"
 sv_mapcycle_add infinity "oddball"
 sv_mapcycle_add longest "oddball"
-sv_mapcycle_add prisoner "oddball"
 sv_mapcycle_add putput "oddball"
 sv_mapcycle_add ratrace "oddball"
 sv_mapcycle_add sidewinder "oddball"

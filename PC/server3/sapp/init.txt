@@ -4,6 +4,7 @@ lua_load welcome
 
 sapp_mapcycle enabled
 sv_mapcycle_timeout 5
+sv_mapcycle_add wizard "king"
 sv_mapcycle_add beavercreek "king"
 sv_mapcycle_add bloodgulch "king"
 sv_mapcycle_add boardingaction "king"
@@ -22,7 +23,6 @@ sv_mapcycle_add putput "king"
 sv_mapcycle_add ratrace "king"
 sv_mapcycle_add sidewinder "king"
 sv_mapcycle_add timberland "king"
-sv_mapcycle_add wizard "king"
 sv_mapcycle_begin
 
 antispam 2

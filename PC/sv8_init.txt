@@ -1,4 +1,4 @@
-sv_name "Little NZ 8 | LEVELUP"
+sv_name "Little NZ 8 | Level Up"
 sv_maxplayers 16
 sv_timelimit 120
 sv_public true

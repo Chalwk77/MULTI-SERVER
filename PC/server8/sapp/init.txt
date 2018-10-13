@@ -4,10 +4,10 @@ lua_load levelup
 
 sapp_mapcycle enabled
 sv_mapcycle_timeout 5
+sv_mapcycle_add carousel "slayer"
 sv_mapcycle_add beavercreek "slayer"
 sv_mapcycle_add bloodgulch "slayer"
 sv_mapcycle_add boardingaction "slayer"
-sv_mapcycle_add carousel "slayer"
 sv_mapcycle_add chillout "slayer"
 sv_mapcycle_add damnation "slayer"
 sv_mapcycle_add dangercanyon "slayer"

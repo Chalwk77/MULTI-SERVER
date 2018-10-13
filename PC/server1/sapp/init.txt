@@ -4,6 +4,7 @@ lua_load welcome
 
 sapp_mapcycle enabled
 sv_mapcycle_timeout 5
+sv_mapcycle_add longest "ctf"
 sv_mapcycle_add beavercreek "ctf"
 sv_mapcycle_add bloodgulch "ctf"
 sv_mapcycle_add boardingaction "ctf"
@@ -16,7 +17,6 @@ sv_mapcycle_add gephyrophobia "ctf"
 sv_mapcycle_add hangemhigh "ctf"
 sv_mapcycle_add icefields "ctf"
 sv_mapcycle_add infinity "ctf"
-sv_mapcycle_add longest "ctf"
 sv_mapcycle_add prisoner "ctf"
 sv_mapcycle_add putput "ctf"
 sv_mapcycle_add ratrace "ctf"
