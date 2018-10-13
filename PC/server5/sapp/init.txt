@@ -1,0 +1,39 @@
+lua enabled
+lua_load base_game_settings
+lua_load welcome
+
+sapp_mapcycle enabled
+sv_mapcycle_timeout 5
+sv_mapcycle_add beavercreek "oddball"
+sv_mapcycle_add bloodgulch "oddball"
+sv_mapcycle_add boardingaction "oddball"
+sv_mapcycle_add carousel "oddball"
+sv_mapcycle_add chillout "oddball"
+sv_mapcycle_add damnation "oddball"
+sv_mapcycle_add dangercanyon "oddball"
+sv_mapcycle_add deathisland "oddball"
+sv_mapcycle_add gephyrophobia "oddball"
+sv_mapcycle_add hangemhigh "oddball"
+sv_mapcycle_add icefields "oddball"
+sv_mapcycle_add infinity "oddball"
+sv_mapcycle_add longest "oddball"
+sv_mapcycle_add prisoner "oddball"
+sv_mapcycle_add putput "oddball"
+sv_mapcycle_add ratrace "oddball"
+sv_mapcycle_add sidewinder "oddball"
+sv_mapcycle_add timberland "oddball"
+sv_mapcycle_add wizard "oddball"
+sv_mapcycle_begin
+
+antispam 2
+log enabled
+no_lead enabled
+say_prefix false
+sapp_rcon enabled
+log_rotation 16384
+antihalofp enabled
+save_scores enabled
+sapp_console enabled
+collect_aliases enabled
+chat_console_echo false
+msg_prefix "** {LNZ} ** "

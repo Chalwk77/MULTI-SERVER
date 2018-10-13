@@ -1,0 +1,39 @@
+lua enabled
+lua_load base_game_settings
+lua_load welcome
+
+sapp_mapcycle enabled
+sv_mapcycle_timeout 5
+sv_mapcycle_add beavercreek "ctf"
+sv_mapcycle_add bloodgulch "ctf"
+sv_mapcycle_add boardingaction "ctf"
+sv_mapcycle_add carousel "ctf"
+sv_mapcycle_add chillout "ctf"
+sv_mapcycle_add damnation "ctf"
+sv_mapcycle_add dangercanyon "ctf"
+sv_mapcycle_add deathisland "ctf"
+sv_mapcycle_add gephyrophobia "ctf"
+sv_mapcycle_add hangemhigh "ctf"
+sv_mapcycle_add icefields "ctf"
+sv_mapcycle_add infinity "ctf"
+sv_mapcycle_add longest "ctf"
+sv_mapcycle_add prisoner "ctf"
+sv_mapcycle_add putput "ctf"
+sv_mapcycle_add ratrace "ctf"
+sv_mapcycle_add sidewinder "ctf"
+sv_mapcycle_add timberland "ctf"
+sv_mapcycle_add wizard "ctf"
+sv_mapcycle_begin
+
+antispam 2
+log enabled
+no_lead enabled
+say_prefix false
+sapp_rcon enabled
+log_rotation 16384
+antihalofp enabled
+save_scores enabled
+sapp_console enabled
+collect_aliases enabled
+chat_console_echo false
+msg_prefix "** {LNZ} ** "

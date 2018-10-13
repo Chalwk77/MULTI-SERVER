@@ -1,0 +1,23 @@
+lua enabled
+lua_load base_game_settings
+lua_load sdtm
+--lua_load welcome
+--lua_load kill_counter
+
+sapp_mapcycle enabled
+sv_mapcycle_timeout 5
+sv_mapcycle_add bloodgulch "sdtm"
+sv_mapcycle_begin
+
+antispam 2
+log enabled
+no_lead enabled
+say_prefix false
+sapp_rcon enabled
+log_rotation 16384
+antihalofp enabled
+save_scores enabled
+sapp_console enabled
+collect_aliases enabled
+chat_console_echo false
+msg_prefix "** {LNZ} ** "

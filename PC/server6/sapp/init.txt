@@ -1,0 +1,39 @@
+lua enabled
+lua_load base_game_settings
+lua_load trophy_hunter
+
+sapp_mapcycle enabled
+sv_mapcycle_timeout 5
+sv_mapcycle_add beavercreek "LNZ-TeamSlayer"
+sv_mapcycle_add bloodgulch "LNZ-TeamSlayer"
+sv_mapcycle_add boardingaction "LNZ-TeamSlayer"
+sv_mapcycle_add carousel "LNZ-TeamSlayer"
+sv_mapcycle_add chillout "LNZ-TeamSlayer"
+sv_mapcycle_add damnation "LNZ-TeamSlayer"
+sv_mapcycle_add dangercanyon "LNZ-TeamSlayer"
+sv_mapcycle_add deathisland "LNZ-TeamSlayer"
+sv_mapcycle_add gephyrophobia "LNZ-TeamSlayer"
+sv_mapcycle_add hangemhigh "LNZ-TeamSlayer"
+sv_mapcycle_add icefields "LNZ-TeamSlayer"
+sv_mapcycle_add infinity "LNZ-TeamSlayer"
+sv_mapcycle_add longest "LNZ-TeamSlayer"
+sv_mapcycle_add prisoner "LNZ-TeamSlayer"
+sv_mapcycle_add putput "LNZ-TeamSlayer"
+sv_mapcycle_add ratrace "LNZ-TeamSlayer"
+sv_mapcycle_add sidewinder "LNZ-TeamSlayer"
+sv_mapcycle_add timberland "LNZ-TeamSlayer"
+sv_mapcycle_add wizard "LNZ-TeamSlayer"
+sv_mapcycle_begin
+
+antispam 2
+log enabled
+no_lead enabled
+say_prefix false
+sapp_rcon enabled
+log_rotation 16384
+antihalofp enabled
+save_scores enabled
+sapp_console enabled
+collect_aliases enabled
+chat_console_echo false
+msg_prefix "** {LNZ} ** "

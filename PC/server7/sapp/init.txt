@@ -1,0 +1,39 @@
+lua enabled
+lua_load base_game_settings
+lua_load juggernaut
+
+sapp_mapcycle enabled
+sv_mapcycle_timeout 5
+sv_mapcycle_add beavercreek "slayer"
+sv_mapcycle_add bloodgulch "slayer"
+sv_mapcycle_add boardingaction "slayer"
+sv_mapcycle_add carousel "slayer"
+sv_mapcycle_add chillout "slayer"
+sv_mapcycle_add damnation "slayer"
+sv_mapcycle_add dangercanyon "slayer"
+sv_mapcycle_add deathisland "slayer"
+sv_mapcycle_add gephyrophobia "slayer"
+sv_mapcycle_add hangemhigh "slayer"
+sv_mapcycle_add icefields "slayer"
+sv_mapcycle_add infinity "slayer"
+sv_mapcycle_add longest "slayer"
+sv_mapcycle_add prisoner "slayer"
+sv_mapcycle_add putput "slayer"
+sv_mapcycle_add ratrace "slayer"
+sv_mapcycle_add sidewinder "slayer"
+sv_mapcycle_add timberland "slayer"
+sv_mapcycle_add wizard "slayer"
+sv_mapcycle_begin
+
+antispam 2
+log enabled
+no_lead enabled
+say_prefix false
+sapp_rcon enabled
+log_rotation 16384
+antihalofp enabled
+save_scores enabled
+sapp_console enabled
+collect_aliases enabled
+chat_console_echo false
+msg_prefix "** {LNZ} ** "
