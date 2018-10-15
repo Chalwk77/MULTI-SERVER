@@ -1,28 +1,29 @@
 lua enabled
 lua_load base_game_settings
 lua_load welcome
+lua_load juggernaut
 
 sapp_mapcycle enabled
 sv_mapcycle_timeout 5
-sv_mapcycle_add hangemhigh "slayer"
-sv_mapcycle_add beavercreek "slayer"
-sv_mapcycle_add bloodgulch "slayer"
-sv_mapcycle_add boardingaction "slayer"
-sv_mapcycle_add carousel "slayer"
-sv_mapcycle_add chillout "slayer"
-sv_mapcycle_add damnation "slayer"
-sv_mapcycle_add dangercanyon "slayer"
-sv_mapcycle_add deathisland "slayer"
-sv_mapcycle_add gephyrophobia "slayer"
-sv_mapcycle_add icefields "slayer"
-sv_mapcycle_add infinity "slayer"
-sv_mapcycle_add longest "slayer"
-sv_mapcycle_add prisoner "slayer"
-sv_mapcycle_add putput "slayer"
-sv_mapcycle_add ratrace "slayer"
-sv_mapcycle_add sidewinder "slayer"
-sv_mapcycle_add timberland "slayer"
-sv_mapcycle_add wizard "slayer"
+sv_mapcycle_add hangemhigh "LNZ-juggernaut-slayer"
+sv_mapcycle_add beavercreek "LNZ-juggernaut-slayer"
+sv_mapcycle_add bloodgulch "LNZ-juggernaut-slayer"
+sv_mapcycle_add boardingaction "LNZ-juggernaut-slayer"
+sv_mapcycle_add carousel "LNZ-juggernaut-slayer"
+sv_mapcycle_add chillout "LNZ-juggernaut-slayer"
+sv_mapcycle_add damnation "LNZ-juggernaut-slayer"
+sv_mapcycle_add dangercanyon "LNZ-juggernaut-slayer"
+sv_mapcycle_add deathisland "LNZ-juggernaut-slayer"
+sv_mapcycle_add gephyrophobia "LNZ-juggernaut-slayer"
+sv_mapcycle_add icefields "LNZ-juggernaut-slayer"
+sv_mapcycle_add infinity "LNZ-juggernaut-slayer"
+sv_mapcycle_add longest "LNZ-juggernaut-slayer"
+sv_mapcycle_add prisoner "LNZ-juggernaut-slayer"
+sv_mapcycle_add putput "LNZ-juggernaut-slayer"
+sv_mapcycle_add ratrace "LNZ-juggernaut-slayer"
+sv_mapcycle_add sidewinder "LNZ-juggernaut-slayer"
+sv_mapcycle_add timberland "LNZ-juggernaut-slayer"
+sv_mapcycle_add wizard "LNZ-juggernaut-slayer"
 sv_mapcycle_begin
 
 antispam 2

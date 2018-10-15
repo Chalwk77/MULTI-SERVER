@@ -1,4 +1,4 @@
-sv_name "Little NZ 1 | Classic CTF / No Mods"
+sv_name "Little NZ 1 | Level Up (modded)"
 sv_maxplayers 16
 sv_timelimit 120
 sv_public true

@@ -1,12 +1,10 @@
 lua enabled
 lua_load base_game_settings
 lua_load sdtm
---lua_load welcome
---lua_load kill_counter
 
 sapp_mapcycle enabled
 sv_mapcycle_timeout 5
-sv_mapcycle_add bloodgulch "sdtm"
+sv_mapcycle_add bloodgulch "LNZ-sdtm-ctf"
 sv_mapcycle_begin
 
 antispam 2

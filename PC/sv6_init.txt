@@ -1,4 +1,4 @@
-sv_name "Little NZ 6 | Trophy Hunter (modded)"
+sv_name "Little NZ 6 | Classic Slayer / No Mods"
 sv_maxplayers 16
 sv_timelimit 120
 sv_public true

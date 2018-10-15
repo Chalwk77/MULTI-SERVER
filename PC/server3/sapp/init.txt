@@ -1,28 +1,29 @@
 lua enabled
 lua_load base_game_settings
 lua_load welcome
+lua_load trophy_hunter
 
 sapp_mapcycle enabled
 sv_mapcycle_timeout 5
-sv_mapcycle_add wizard "king"
-sv_mapcycle_add beavercreek "king"
-sv_mapcycle_add bloodgulch "king"
-sv_mapcycle_add boardingaction "king"
-sv_mapcycle_add carousel "king"
-sv_mapcycle_add chillout "king"
-sv_mapcycle_add damnation "king"
-sv_mapcycle_add dangercanyon "king"
-sv_mapcycle_add deathisland "king"
-sv_mapcycle_add gephyrophobia "king"
-sv_mapcycle_add hangemhigh "king"
-sv_mapcycle_add icefields "king"
-sv_mapcycle_add infinity "king"
-sv_mapcycle_add longest "king"
-sv_mapcycle_add prisoner "king"
-sv_mapcycle_add putput "king"
-sv_mapcycle_add ratrace "king"
-sv_mapcycle_add sidewinder "king"
-sv_mapcycle_add timberland "king"
+sv_mapcycle_add wizard "LNZ-trophyhunter-ts"
+sv_mapcycle_add beavercreek "LNZ-trophyhunter-ts"
+sv_mapcycle_add bloodgulch "LNZ-trophyhunter-ts"
+sv_mapcycle_add boardingaction "LNZ-trophyhunter-ts"
+sv_mapcycle_add carousel "LNZ-trophyhunter-ts"
+sv_mapcycle_add chillout "LNZ-trophyhunter-ts"
+sv_mapcycle_add damnation "LNZ-trophyhunter-ts"
+sv_mapcycle_add dangercanyon "LNZ-trophyhunter-ts"
+sv_mapcycle_add deathisland "LNZ-trophyhunter-ts"
+sv_mapcycle_add gephyrophobia "LNZ-trophyhunter-ts"
+sv_mapcycle_add hangemhigh "LNZ-trophyhunter-ts"
+sv_mapcycle_add icefields "LNZ-trophyhunter-ts"
+sv_mapcycle_add infinity "LNZ-trophyhunter-ts"
+sv_mapcycle_add longest "LNZ-trophyhunter-ts"
+sv_mapcycle_add prisoner "LNZ-trophyhunter-ts"
+sv_mapcycle_add putput "LNZ-trophyhunter-ts"
+sv_mapcycle_add ratrace "LNZ-trophyhunter-ts"
+sv_mapcycle_add sidewinder "LNZ-trophyhunter-ts"
+sv_mapcycle_add timberland "LNZ-trophyhunter-ts"
 sv_mapcycle_begin
 
 antispam 2

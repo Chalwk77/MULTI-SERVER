@@ -1,28 +1,28 @@
 lua enabled
 lua_load base_game_settings
-lua_load trophy_hunter
+lua_load welcome
 
 sapp_mapcycle enabled
 sv_mapcycle_timeout 5
-sv_mapcycle_add sidewinder "LNZ-TeamSlayer"
-sv_mapcycle_add beavercreek "LNZ-TeamSlayer"
-sv_mapcycle_add bloodgulch "LNZ-TeamSlayer"
-sv_mapcycle_add boardingaction "LNZ-TeamSlayer"
-sv_mapcycle_add carousel "LNZ-TeamSlayer"
-sv_mapcycle_add chillout "LNZ-TeamSlayer"
-sv_mapcycle_add damnation "LNZ-TeamSlayer"
-sv_mapcycle_add dangercanyon "LNZ-TeamSlayer"
-sv_mapcycle_add deathisland "LNZ-TeamSlayer"
-sv_mapcycle_add gephyrophobia "LNZ-TeamSlayer"
-sv_mapcycle_add hangemhigh "LNZ-TeamSlayer"
-sv_mapcycle_add icefields "LNZ-TeamSlayer"
-sv_mapcycle_add infinity "LNZ-TeamSlayer"
-sv_mapcycle_add longest "LNZ-TeamSlayer"
-sv_mapcycle_add prisoner "LNZ-TeamSlayer"
-sv_mapcycle_add putput "LNZ-TeamSlayer"
-sv_mapcycle_add ratrace "LNZ-TeamSlayer"
-sv_mapcycle_add timberland "LNZ-TeamSlayer"
-sv_mapcycle_add wizard "LNZ-TeamSlayer"
+sv_mapcycle_add sidewinder "LNZ-classic-slayer"
+sv_mapcycle_add beavercreek "LNZ-classic-slayer"
+sv_mapcycle_add bloodgulch "LNZ-classic-slayer"
+sv_mapcycle_add boardingaction "LNZ-classic-slayer"
+sv_mapcycle_add carousel "LNZ-classic-slayer"
+sv_mapcycle_add chillout "LNZ-classic-slayer"
+sv_mapcycle_add damnation "LNZ-classic-slayer"
+sv_mapcycle_add dangercanyon "LNZ-classic-slayer"
+sv_mapcycle_add deathisland "LNZ-classic-slayer"
+sv_mapcycle_add gephyrophobia "LNZ-classic-slayer"
+sv_mapcycle_add hangemhigh "LNZ-classic-slayer"
+sv_mapcycle_add icefields "LNZ-classic-slayer"
+sv_mapcycle_add infinity "LNZ-classic-slayer"
+sv_mapcycle_add longest "LNZ-classic-slayer"
+sv_mapcycle_add prisoner "LNZ-classic-slayer"
+sv_mapcycle_add putput "LNZ-classic-slayer"
+sv_mapcycle_add ratrace "LNZ-classic-slayer"
+sv_mapcycle_add timberland "LNZ-classic-slayer"
+sv_mapcycle_add wizard "LNZ-classic-slayer"
 sv_mapcycle_begin
 
 antispam 2

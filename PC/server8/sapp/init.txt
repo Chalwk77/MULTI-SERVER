@@ -1,28 +1,28 @@
 lua enabled
 lua_load base_game_settings
-lua_load levelup
+lua_load welcome
 
 sapp_mapcycle enabled
 sv_mapcycle_timeout 5
-sv_mapcycle_add bloodgulch "slayer"
-sv_mapcycle_add carousel "slayer"
-sv_mapcycle_add beavercreek "slayer"
-sv_mapcycle_add boardingaction "slayer"
-sv_mapcycle_add chillout "slayer"
-sv_mapcycle_add damnation "slayer"
-sv_mapcycle_add dangercanyon "slayer"
-sv_mapcycle_add deathisland "slayer"
-sv_mapcycle_add gephyrophobia "slayer"
-sv_mapcycle_add hangemhigh "slayer"
-sv_mapcycle_add icefields "slayer"
-sv_mapcycle_add infinity "slayer"
-sv_mapcycle_add longest "slayer"
-sv_mapcycle_add prisoner "slayer"
-sv_mapcycle_add putput "slayer"
-sv_mapcycle_add ratrace "slayer"
-sv_mapcycle_add sidewinder "slayer"
-sv_mapcycle_add timberland "slayer"
-sv_mapcycle_add wizard "slayer"
+sv_mapcycle_add bloodgulch "LNZ-classic-rockets"
+sv_mapcycle_add carousel "LNZ-classic-rockets"
+sv_mapcycle_add beavercreek "LNZ-classic-rockets"
+sv_mapcycle_add boardingaction "LNZ-classic-rockets"
+sv_mapcycle_add chillout "LNZ-classic-rockets"
+sv_mapcycle_add damnation "LNZ-classic-rockets"
+sv_mapcycle_add dangercanyon "LNZ-classic-rockets"
+sv_mapcycle_add deathisland "LNZ-classic-rockets"
+sv_mapcycle_add gephyrophobia "LNZ-classic-rockets"
+sv_mapcycle_add hangemhigh "LNZ-classic-rockets"
+sv_mapcycle_add icefields "LNZ-classic-rockets"
+sv_mapcycle_add infinity "LNZ-classic-rockets"
+sv_mapcycle_add longest "LNZ-classic-rockets"
+sv_mapcycle_add prisoner "LNZ-classic-rockets"
+sv_mapcycle_add putput "LNZ-classic-rockets"
+sv_mapcycle_add ratrace "LNZ-classic-rockets"
+sv_mapcycle_add sidewinder "LNZ-classic-rockets"
+sv_mapcycle_add timberland "LNZ-classic-rockets"
+sv_mapcycle_add wizard "LNZ-classic-rockets"
 sv_mapcycle_begin
 
 antispam 2

@@ -1,29 +1,29 @@
 lua enabled
 lua_load base_game_settings
 lua_load welcome
-lua_load aip
+lua_load levelup
 
 sapp_mapcycle enabled
 sv_mapcycle_timeout 5
-sv_mapcycle_add longest "ctf"
-sv_mapcycle_add beavercreek "ctf"
-sv_mapcycle_add bloodgulch "ctf"
-sv_mapcycle_add boardingaction "ctf"
-sv_mapcycle_add carousel "ctf"
-sv_mapcycle_add chillout "ctf"
-sv_mapcycle_add damnation "ctf"
-sv_mapcycle_add dangercanyon "ctf"
-sv_mapcycle_add deathisland "ctf"
-sv_mapcycle_add gephyrophobia "ctf"
-sv_mapcycle_add hangemhigh "ctf"
-sv_mapcycle_add icefields "ctf"
-sv_mapcycle_add infinity "ctf"
-sv_mapcycle_add prisoner "ctf"
-sv_mapcycle_add putput "ctf"
-sv_mapcycle_add ratrace "ctf"
-sv_mapcycle_add sidewinder "ctf"
-sv_mapcycle_add timberland "ctf"
-sv_mapcycle_add wizard "ctf"
+sv_mapcycle_add longest "LNZ-levelup-slayer"
+sv_mapcycle_add beavercreek "LNZ-levelup-slayer"
+sv_mapcycle_add bloodgulch "LNZ-levelup-slayer"
+sv_mapcycle_add boardingaction "LNZ-levelup-slayer"
+sv_mapcycle_add carousel "LNZ-levelup-slayer"
+sv_mapcycle_add chillout "LNZ-levelup-slayer"
+sv_mapcycle_add damnation "LNZ-levelup-slayer"
+sv_mapcycle_add dangercanyon "LNZ-levelup-slayer"
+sv_mapcycle_add deathisland "LNZ-levelup-slayer"
+sv_mapcycle_add gephyrophobia "LNZ-levelup-slayer"
+sv_mapcycle_add hangemhigh "LNZ-levelup-slayer"
+sv_mapcycle_add icefields "LNZ-levelup-slayer"
+sv_mapcycle_add infinity "LNZ-levelup-slayer"
+sv_mapcycle_add prisoner "LNZ-levelup-slayer"
+sv_mapcycle_add putput "LNZ-levelup-slayer"
+sv_mapcycle_add ratrace "LNZ-levelup-slayer"
+sv_mapcycle_add sidewinder "LNZ-levelup-slayer"
+sv_mapcycle_add timberland "LNZ-levelup-slayer"
+sv_mapcycle_add wizard "LNZ-levelup-slayer"
 sv_mapcycle_begin
 
 antispam 2
