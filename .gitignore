@@ -1,3 +1,6 @@
+# ignore blam.lst files
+*.lst
+
 # Compiled Lua sources
 luac.out
 

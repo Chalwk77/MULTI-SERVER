@@ -705,20 +705,22 @@ function OnPlayerDeath(PlayerIndex, KillerIndex)
     if (current_players >= minimum_players) then
         if killer ~= server then
             for i = 1, current_players do
-                -- someone is already the juggernaut
-                if (killer > 0) and (i == players[get_var(i, "$n")].current_juggernaut) then
-                    selection_bool = false
-                    -- killer & victim not juggernaut | someone else is currently juggernaut
-                    if (killer ~= players[get_var(killer, "$n")].current_juggernaut) and (victim ~= players[get_var(victim, "$n")].current_juggernaut) then
+                if player_present(i) then
+                    -- someone is already the juggernaut
+                    if (killer > 0) and (i == players[get_var(i, "$n")].current_juggernaut) then
                         selection_bool = false
-                        break
-                        -- killer not juggernaut | victim is juggernaut | make killer new juggernaut | update score with (gotcha_points)
-                    elseif (killer ~= players[get_var(killer, "$n")].current_juggernaut) and (victim == players[get_var(victim, "$n")].current_juggernaut) then
-                        selection_bool = false
-                        players[get_var(victim, "$n")].current_juggernaut = nil
-                        ResetNavMarker()
-                        SetNewJuggernaut(tonumber(killer), false, true)
-                        break
+                        -- killer & victim not juggernaut | someone else is currently juggernaut
+                        if (killer ~= players[get_var(killer, "$n")].current_juggernaut) and (victim ~= players[get_var(victim, "$n")].current_juggernaut) then
+                            selection_bool = false
+                            break
+                            -- killer not juggernaut | victim is juggernaut | make killer new juggernaut | update score with (gotcha_points)
+                        elseif (killer ~= players[get_var(killer, "$n")].current_juggernaut) and (victim == players[get_var(victim, "$n")].current_juggernaut) then
+                            selection_bool = false
+                            players[get_var(victim, "$n")].current_juggernaut = nil
+                            ResetNavMarker()
+                            SetNewJuggernaut(tonumber(killer), false, true)
+                            break
+                        end
                     end
                 end
             end
