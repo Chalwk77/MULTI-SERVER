@@ -1,6 +1,7 @@
 lua enabled
 lua_load base_game_settings
 lua_load welcome
+lua_load aip
 
 sapp_mapcycle enabled
 sv_mapcycle_timeout 5

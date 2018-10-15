@@ -1,6 +1,6 @@
 @echo off
 
-set use_multiclient=false
+set use_multiclient=true
 set instances=1
 
 cd "C:\Program Files (x86)\Microsoft Games\Halo\HPC - SAPP SERVER"
@@ -14,22 +14,40 @@ start haloded.exe -exec C:\Users\Jericho\Desktop\MULTI-SERVER\PC\sv7_init.txt -p
 start haloded.exe -exec C:\Users\Jericho\Desktop\MULTI-SERVER\PC\sv8_init.txt -path C:\Users\Jericho\Desktop\MULTI-SERVER\PC\server8 -port 2317
 
 IF %use_multiclient%==true (
-  FOR /L %%i IN (1,1,%instances%) DO (
       cd "C:\Program Files (x86)\Microsoft Games\Halo"
+      ECHO Please wait...
+      ECHO Launching Little NZ Servers....
+  FOR /L %%i IN (1,1,%instances%) DO (
+      timeout 1
       start HPC_Multiclient.exe halo.exe -console -novideo -window -vidmode 50,50 -connect localhost:2310
   )
   FOR /L %%i IN (1,1,%instances%) DO (
-      cd "C:\Program Files (x86)\Microsoft Games\Halo"
-      SLEEP 3
+      timeout 1
       start HPC_Multiclient.exe halo.exe -console -novideo -window -vidmode 50,50 -connect localhost:2311
   )
   FOR /L %%i IN (1,1,%instances%) DO (
-      cd "C:\Program Files (x86)\Microsoft Games\Halo"
+      timeout 1
       start HPC_Multiclient.exe halo.exe -console -novideo -window -vidmode 50,50 -connect localhost:2312
   )
   FOR /L %%i IN (1,1,%instances%) DO (
-      cd "C:\Program Files (x86)\Microsoft Games\Halo"
+      timeout 1
       start HPC_Multiclient.exe halo.exe -console -novideo -window -vidmode 50,50 -connect localhost:2313
+  )
+  FOR /L %%i IN (1,1,%instances%) DO (
+      timeout 1
+      start HPC_Multiclient.exe halo.exe -console -novideo -window -vidmode 50,50 -connect localhost:2314
+  )
+  FOR /L %%i IN (1,1,%instances%) DO (
+      timeout 1
+      start HPC_Multiclient.exe halo.exe -console -novideo -window -vidmode 50,50 -connect localhost:2315
+  )
+  FOR /L %%i IN (1,1,%instances%) DO (
+      timeout 1
+      start HPC_Multiclient.exe halo.exe -console -novideo -window -vidmode 50,50 -connect localhost:2316
+  )
+  FOR /L %%i IN (1,1,%instances%) DO (
+      timeout 1
+      start HPC_Multiclient.exe halo.exe -console -novideo -window -vidmode 50,50 -connect localhost:2317
   )
 )
 

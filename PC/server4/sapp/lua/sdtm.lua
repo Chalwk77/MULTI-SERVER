@@ -7,7 +7,6 @@ Copyright (c) 2016-2018, Jericho Crosby <jericho.crosby227@gmail.com>
 * Written by Jericho Crosby
 -----------------------------------
 ]]--
-
 api_version = "1.12.0.0"
 tbag = { }
 weapon = { }
@@ -40,7 +39,6 @@ vehicles[6] = { "vehi", "vehicles\\c gun turret\\c gun turret_mp", "Turret"}
 -- Gametype Override
 local handle_manually = false
 --
-
 function OnScriptLoad()
     register_callback(cb['EVENT_TICK'], "OnTick")
     register_callback(cb['EVENT_JOIN'], "OnPlayerJoin")
@@ -408,7 +406,7 @@ function InitSettings()
         { 120.665, - 188.766, 13.752, 0.5, 109.956, - 188.522, 14.437, 280, - 10, 0, "22"},
         { 97.476, - 188.912, 15.718, 0.5, 53.653, - 157.885, 21.753, 280, - 10, 0, "23"},
         { 48.046, - 153.087, 21.181, 0.5, 23.112, - 59.428, 16.352, 280, - 10, 0, "24"},
-        { 118.263, - 120.761, 17.192, 0.5, 40.194, - 139.990, 2.733, 280, - 10, 0, "25"},
+        { 118.263, - 120.761, 17.192, 0.5, 40.194, - 139.990, 2.733, 280, - 10, 0, "25"}
     }
 
     TANK_SHELL = TagInfo("jpt!", "vehicles\\scorpion\\shell explosion")
