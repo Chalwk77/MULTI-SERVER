@@ -2,6 +2,8 @@
 @echo off
 SET use_multiclient=true
 set instances=1
+set minimize_multiclient=true
+set move_resize_multiclient=false
 ECHO ------------------------------------------------------------------
 ECHO Launching servers...
 ECHO ------------------------------------------------------------------
@@ -104,8 +106,14 @@ IF "%use_multiclient%"=="true" (
     TIMEOUT /T %mc_delay% /NOBREAK
     for /f %%a in ('cmdow ^| findstr "Halo"') do (
       cmdow %%a /ren "Multiclient 1 | Little NZ 1 | Level Up (modded)"
-      cmdow %%a /mov -1680 31
-      cmdow %%a /siz 440 340
+      IF "%move_resize_multiclient%"=="true" (
+        cmdow %%a /mov -1680 31
+        cmdow %%a /siz 440 340
+      )
+      IF "%minimize_multiclient%"=="true" (
+        cmdow %%a /min
+        cmdow %%a /ina
+      )
     )
     cd "C:\Program Files (x86)\Microsoft Games\Halo"
     FOR /L %%i IN (1,1,%instances%) DO (
@@ -116,8 +124,14 @@ IF "%use_multiclient%"=="true" (
     TIMEOUT /T %mc_delay% /NOBREAK
     for /f %%a in ('cmdow ^| findstr "Halo"') do (
       cmdow %%a /ren "Multiclient 2 | Little NZ 2 | Juggernaut (modded)"
-      cmdow %%a /mov -1680 31
-      cmdow %%a /siz 440 340
+      IF "%move_resize_multiclient%"=="true" (
+        cmdow %%a /mov -1680 31
+        cmdow %%a /siz 440 340
+      )
+      IF "%minimize_multiclient%"=="true" (
+        cmdow %%a /min
+        cmdow %%a /ina
+      )
     )
     cd "C:\Program Files (x86)\Microsoft Games\Halo"
     FOR /L %%i IN (1,1,%instances%) DO (
@@ -128,8 +142,14 @@ IF "%use_multiclient%"=="true" (
     TIMEOUT /T %mc_delay% /NOBREAK
     for /f %%a in ('cmdow ^| findstr "Halo"') do (
       cmdow %%a /ren "Multiclient 3 | Little NZ 3 | Trophy Hunter (modded)"
-      cmdow %%a /mov -1680 31
-      cmdow %%a /siz 440 340
+      IF "%move_resize_multiclient%"=="true" (
+        cmdow %%a /mov -1680 31
+        cmdow %%a /siz 440 340
+      )
+      IF "%minimize_multiclient%"=="true" (
+        cmdow %%a /min
+        cmdow %%a /ina
+      )
     )
     cd "C:\Program Files (x86)\Microsoft Games\Halo"
     FOR /L %%i IN (1,1,%instances%) DO (
@@ -140,8 +160,14 @@ IF "%use_multiclient%"=="true" (
     TIMEOUT /T %mc_delay% /NOBREAK
     for /f %%a in ('cmdow ^| findstr "Halo"') do (
       cmdow %%a /ren "Multiclient 4 | Little NZ 4 | Snipers Dream Team Mod"
-      cmdow %%a /mov -1680 31
-      cmdow %%a /siz 440 340
+      IF "%move_resize_multiclient%"=="true" (
+        cmdow %%a /mov -1680 31
+        cmdow %%a /siz 440 340
+      )
+      IF "%minimize_multiclient%"=="true" (
+        cmdow %%a /min
+        cmdow %%a /ina
+      )
     )
     cd "C:\Program Files (x86)\Microsoft Games\Halo"
     FOR /L %%i IN (1,1,%instances%) DO (
@@ -152,8 +178,14 @@ IF "%use_multiclient%"=="true" (
     TIMEOUT /T %mc_delay% /NOBREAK
     for /f %%a in ('cmdow ^| findstr "Halo"') do (
       cmdow %%a /ren "Multiclient 5 | Little NZ 5 | Classic CTF / No Mods"
-      cmdow %%a /mov -1680 31
-      cmdow %%a /siz 440 340
+      IF "%move_resize_multiclient%"=="true" (
+        cmdow %%a /mov -1680 31
+        cmdow %%a /siz 440 340
+      )
+      IF "%minimize_multiclient%"=="true" (
+        cmdow %%a /min
+        cmdow %%a /ina
+      )
     )
     cd "C:\Program Files (x86)\Microsoft Games\Halo"
     FOR /L %%i IN (1,1,%instances%) DO (
@@ -164,8 +196,14 @@ IF "%use_multiclient%"=="true" (
     TIMEOUT /T %mc_delay% /NOBREAK
     for /f %%a in ('cmdow ^| findstr "Halo"') do (
       cmdow %%a /ren "Multiclient 6 | Little NZ 6 | Classic Slayer / No Mods"
-      cmdow %%a /mov -1680 31
-      cmdow %%a /siz 440 340
+      IF "%move_resize_multiclient%"=="true" (
+        cmdow %%a /mov -1680 31
+        cmdow %%a /siz 440 340
+      )
+      IF "%minimize_multiclient%"=="true" (
+        cmdow %%a /min
+        cmdow %%a /ina
+      )
     )
     cd "C:\Program Files (x86)\Microsoft Games\Halo"
     FOR /L %%i IN (1,1,%instances%) DO (
@@ -176,8 +214,14 @@ IF "%use_multiclient%"=="true" (
     TIMEOUT /T %mc_delay% /NOBREAK
     for /f %%a in ('cmdow ^| findstr "Halo"') do (
       cmdow %%a /ren "Multiclient 7 | Little NZ 7 | Classic KOTH / No Mods"
-      cmdow %%a /mov -1680 31
-      cmdow %%a /siz 440 340
+      IF "%move_resize_multiclient%"=="true" (
+        cmdow %%a /mov -1680 31
+        cmdow %%a /siz 440 340
+      )
+      IF "%minimize_multiclient%"=="true" (
+        cmdow %%a /min
+        cmdow %%a /ina
+      )
     )
     cd "C:\Program Files (x86)\Microsoft Games\Halo"
     FOR /L %%i IN (1,1,%instances%) DO (
@@ -188,8 +232,14 @@ IF "%use_multiclient%"=="true" (
     TIMEOUT /T %mc_delay% /NOBREAK
     for /f %%a in ('cmdow ^| findstr "Halo"') do (
       cmdow %%a /ren "Multiclient 8 | Little NZ 8 | Classic Rockets / No Mods"
-      cmdow %%a /mov -1680 31
-      cmdow %%a /siz 440 340
+      IF "%move_resize_multiclient%"=="true" (
+        cmdow %%a /mov -1680 31
+        cmdow %%a /siz 440 340
+      )
+      IF "%minimize_multiclient%"=="true" (
+        cmdow %%a /min
+        cmdow %%a /ina
+      )
     )
 )
 
