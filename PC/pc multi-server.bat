@@ -2,11 +2,14 @@
 
 set use_multiclient=false
 set instances=1
+ECHO ------------------------------------------------------------------
+ECHO Launching servers...
+ECHO ------------------------------------------------------------------
 
 cd "C:\Program Files (x86)\Microsoft Games\Halo\HPC - SAPP SERVER"
 start haloded.exe -exec C:\Users\Jericho\Desktop\MULTI-SERVER\PC\sv1_init.txt -path C:\Users\Jericho\Desktop\MULTI-SERVER\PC\server1 -port 2310
 cd "C:\Users\Jericho\Downloads\ritchielawrence-cmdow-1bbcd2b\bin\Release"
-timeout 1
+timeout 2
 for /f %%a in ('cmdow ^| findstr "Halo Console"') do (
   cmdow %%a /ren "Little NZ 1 | Level Up (modded)"
   cmdow %%a /mov -1680 31
