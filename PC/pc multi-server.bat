@@ -1,5 +1,4 @@
 :: All server consoles will be running, moved and resized within 8 seconds.
-:: All servers & multiclients will be running within 1 minute 2 seconds.
 @echo off
 SET use_multiclient=true
 set instances=1
