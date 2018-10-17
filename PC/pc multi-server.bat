@@ -1,10 +1,9 @@
 :: All server consoles will be running, moved and resized within 8 seconds.
 @echo off
-SET use_multiclient=true
+set use_multiclient=true
 set instances=1
 set minimize_multiclient=false
 set move_resize_multiclient=true
-
 set use_server1=true
 set use_server2=true
 set use_server3=true
