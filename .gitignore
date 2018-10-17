@@ -39,5 +39,5 @@ luac.out
 *.x86_64
 *.hex
 
-# IGNORE BLAM FILES!
-.lst
+# ignore directory
+# /server1/saved/playlists/default_playlist/00/blam.lst
