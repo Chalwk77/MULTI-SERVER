@@ -1,2 +1,3 @@
-# ignore directory
+# directories to ignore
 **/saved/*
+**.log
