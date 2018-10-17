@@ -1,3 +1,2 @@
 # ignore directory
-**/saved/player_profiles/**.sav
-**/saved/playlists/default_playlist/
+**/saved/*
