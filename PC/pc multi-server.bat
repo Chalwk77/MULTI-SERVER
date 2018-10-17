@@ -1,4 +1,4 @@
-:: All server consoles will be running, moved and resized within 8 seconds.
+:: All server consoles will be running, moved and resized within 7.37 to 7.59 seconds.
 @echo off
 set use_multiclient=false
 set instances=1
@@ -32,7 +32,7 @@ ECHO ---------------------------------------------------------------------------
 ECHO.
 ECHO Launching servers...
 ECHO --------------------
-set server_delay=380
+set server_delay=370
 IF "%use_server1%"=="true" (
   cd "C:\Program Files (x86)\Microsoft Games\Halo\HPC - SAPP SERVER"
   start haloded.exe -exec C:\Users\Jericho\Desktop\MULTI-SERVER\PC\sv1_init.txt -path C:\Users\Jericho\Desktop\MULTI-SERVER\PC\server1 -port 2310
