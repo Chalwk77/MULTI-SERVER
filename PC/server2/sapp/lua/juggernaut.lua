@@ -65,7 +65,7 @@ killLimit = 25
 -- Default Running Speed for non-juggernauts
 default_running_speed = 1
 -- juggernaut Turn-Duration (in seconds)
-TurnTime = 10
+TurnTime = 30
 -- When juggernaut commits suicide, how long (in seconds) until someone else is chosen to be juggernaut?
 SuicideSelectDelay = 5
 -- juggernaut is rewarded (alive_points) every (allocated_time) seconds (30 by default)

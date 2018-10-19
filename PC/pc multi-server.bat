@@ -32,7 +32,7 @@ ECHO ---------------------------------------------------------------------------
 ECHO.
 ECHO Launching servers...
 ECHO --------------------
-set server_delay=370
+set server_delay=400
 IF "%use_server1%"=="true" (
   cd "C:\Program Files (x86)\Microsoft Games\Halo\HPC - SAPP SERVER"
   start haloded.exe -exec C:\Users\Jericho\Desktop\MULTI-SERVER\PC\sv1_init.txt -path C:\Users\Jericho\Desktop\MULTI-SERVER\PC\server1 -port 2310
