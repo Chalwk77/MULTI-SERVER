@@ -39,7 +39,7 @@ IF "%use_server1%"=="true" (
   ECHO "Starting Little NZ 1 | Level Up (modded)"
   cd "C:\Program Files (x86)\Microsoft Games\Halo\HPC - SAPP SERVER\ritchielawrence-cmdow-1bbcd2b\bin\Release"
   call :waitfor %server_delay%>nul
-  for /f %%a in ('cmdow ^| findstr "console"') do (
+  for /f %%a in ('cmdow ^| findstr "Console"') do (
     cmdow %%a /ren "Little NZ 1 | Level Up (modded)"
     cmdow %%a /mov -1680 31
     cmdow %%a /siz 670 450
@@ -51,7 +51,7 @@ IF "%use_server2%"=="true" (
   ECHO "Starting Little NZ 2 | Juggernaut (modded)"
   cd "C:\Program Files (x86)\Microsoft Games\Halo\HPC - SAPP SERVER\ritchielawrence-cmdow-1bbcd2b\bin\Release"
   call :waitfor %server_delay%>nul
-  for /f %%a in ('cmdow ^| findstr "console"') do (
+  for /f %%a in ('cmdow ^| findstr "Console"') do (
     cmdow %%a /ren "Little NZ 2 | Juggernaut (modded)"
     cmdow %%a /mov -679 31
     cmdow %%a /siz 670 450
@@ -63,7 +63,7 @@ IF "%use_server3%"=="true" (
   ECHO "Starting Little NZ 3 | Trophy Hunter (modded)"
   cd "C:\Program Files (x86)\Microsoft Games\Halo\HPC - SAPP SERVER\ritchielawrence-cmdow-1bbcd2b\bin\Release"
   call :waitfor %server_delay%>nul
-  for /f %%a in ('cmdow ^| findstr "console"') do (
+  for /f %%a in ('cmdow ^| findstr "Console"') do (
     cmdow %%a /ren "Little NZ 3 | Trophy Hunter (modded)"
     cmdow %%a /mov -1679 627
     cmdow %%a /siz 670 450
@@ -75,7 +75,7 @@ IF "%use_server4%"=="true" (
   ECHO "Starting Little NZ 4 | Snipers Dream Team Mod"
   cd "C:\Program Files (x86)\Microsoft Games\Halo\HPC - SAPP SERVER\ritchielawrence-cmdow-1bbcd2b\bin\Release"
   call :waitfor %server_delay%>nul
-  for /f %%a in ('cmdow ^| findstr "console"') do (
+  for /f %%a in ('cmdow ^| findstr "Console"') do (
     cmdow %%a /ren "Little NZ 4 | Snipers Dream Team Mod"
     cmdow %%a /mov -679 627
     cmdow %%a /siz 670 450
@@ -87,7 +87,7 @@ IF "%use_server5%"=="true" (
   ECHO "Starting Little NZ 5 | Classic CTF / No Mods"
   cd "C:\Program Files (x86)\Microsoft Games\Halo\HPC - SAPP SERVER\ritchielawrence-cmdow-1bbcd2b\bin\Release"
   call :waitfor %server_delay%>nul
-  for /f %%a in ('cmdow ^| findstr "console"') do (
+  for /f %%a in ('cmdow ^| findstr "Console"') do (
     cmdow %%a /ren "Little NZ 5 | Classic CTF / No Mods"
     cmdow %%a /mov 1922 77
     cmdow %%a /siz 670 400
@@ -99,7 +99,7 @@ IF "%use_server6%"=="true" (
   ECHO "Starting Little NZ 6 | Classic Slayer / No Mods"
   cd "C:\Program Files (x86)\Microsoft Games\Halo\HPC - SAPP SERVER\ritchielawrence-cmdow-1bbcd2b\bin\Release"
   call :waitfor %server_delay%>nul
-  for /f %%a in ('cmdow ^| findstr "console"') do (
+  for /f %%a in ('cmdow ^| findstr "Console"') do (
     cmdow %%a /ren "Little NZ 6 | Classic Slayer / No Mods"
     cmdow %%a /mov 2609 77
     cmdow %%a /siz 670 400
@@ -111,7 +111,7 @@ IF "%use_server7%"=="true" (
   ECHO "Starting Little NZ 7 | Classic KOTH / No Mods"
   cd "C:\Program Files (x86)\Microsoft Games\Halo\HPC - SAPP SERVER\ritchielawrence-cmdow-1bbcd2b\bin\Release"
   call :waitfor %server_delay%>nul
-  for /f %%a in ('cmdow ^| findstr "console"') do (
+  for /f %%a in ('cmdow ^| findstr "Console"') do (
     cmdow %%a /ren "Little NZ 7 | Classic KOTH / No Mods"
     cmdow %%a /mov 1922 480
     cmdow %%a /siz 670 355
@@ -123,7 +123,7 @@ IF "%use_server8%"=="true" (
   ECHO "Starting Little NZ 8 | Classic Rockets / No Mods"
   cd "C:\Program Files (x86)\Microsoft Games\Halo\HPC - SAPP SERVER\ritchielawrence-cmdow-1bbcd2b\bin\Release"
   call :waitfor %server_delay%>nul
-  for /f %%a in ('cmdow ^| findstr "console"') do (
+  for /f %%a in ('cmdow ^| findstr "Console"') do (
     cmdow %%a /ren "Little NZ 8 | Classic Rockets / No Mods"
     cmdow %%a /mov 2609 480
     cmdow %%a /siz 670 355
