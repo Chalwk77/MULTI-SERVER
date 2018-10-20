@@ -5,9 +5,9 @@ lua_load juggernaut
 
 sapp_mapcycle enabled
 sv_mapcycle_timeout 5
+sv_mapcycle_add bloodgulch "LNZ-juggernaut-slayer"
 sv_mapcycle_add hangemhigh "LNZ-juggernaut-slayer"
 sv_mapcycle_add beavercreek "LNZ-juggernaut-slayer"
-sv_mapcycle_add bloodgulch "LNZ-juggernaut-slayer"
 sv_mapcycle_add boardingaction "LNZ-juggernaut-slayer"
 sv_mapcycle_add carousel "LNZ-juggernaut-slayer"
 sv_mapcycle_add chillout "LNZ-juggernaut-slayer"

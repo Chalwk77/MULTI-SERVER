@@ -688,7 +688,7 @@ function OnPlayerDeath(PlayerIndex, KillerIndex)
     end
     -- killer is already juggernaut | update score with (general_points)
     if (killer ~= server) then
-        if (killer > 0) then
+        if (killer > 0 and killer ~= victim) then
             if (killer == players[get_var(killer, "$n")].current_juggernaut) then
                 execute_command("score " .. killer .. " +" .. tostring(general_points))
                 rprint(killer, "|" .. Alignment .. "+" .. tostring(general_points) .. " pts")

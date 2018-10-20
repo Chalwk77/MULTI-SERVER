@@ -1,10 +1,10 @@
 @echo off
 cd "C:\Program Files (x86)\Microsoft Games\Halo\HPC - SAPP SERVER"
-start haloded.exe -exec C:\Users\Jericho\Desktop\MULTI-SERVER\PC\sv6_init.txt -path C:\Users\Jericho\Desktop\MULTI-SERVER\PC\server1 -port 2315
+start haloded.exe -exec C:\Users\Jericho\Desktop\MULTI-SERVER\PC\sv6_init.txt -path C:\Users\Jericho\Desktop\MULTI-SERVER\PC\server6 -port 2315
 cd "C:\Program Files (x86)\Microsoft Games\Halo\HPC - SAPP SERVER\ritchielawrence-cmdow-1bbcd2b\bin\Release"
-set delay=340
+set delay=400
 call :waitfor %delay%>nul
-for /f %%a in ('cmdow ^| findstr "Halo Console"') do (
+for /f %%a in ('cmdow ^| findstr "Console"') do (
     cmdow %%a /ren "Little NZ 6 | Classic Slayer / No Mods"
     cmdow %%a /mov 2605 77
     cmdow %%a /siz 670 400
